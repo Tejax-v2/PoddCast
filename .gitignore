@@ -1,0 +1,17 @@
+#Environment variables and Database
+*.env
+*.log
+*.sqlite3
+
+# Django Static data
+/media
+/static/media
+/staticfiles
+
+# Secret files
+*.secret_key
+*.pem
+
+# Build directories
+build/
+dist/
